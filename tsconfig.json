@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "target": "es5",
+    "moduleResolution": "node",
+    "declaration": true,
+    "rootDir": ".",
+    "outDir": "dist",
+    "preserveSymlinks": true,
+    "downlevelIteration": true,
+    "types" : ["node"]
+  },
+  "include": [
+    "src/**/*.ts"  
+  ],
+  "exclude": [
+    "log/**",
+    "^dist/**/*",
+    "^definitions/**/*"
+  ]
+}
