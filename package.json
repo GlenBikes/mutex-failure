@@ -1,0 +1,44 @@
+{
+  "name": "HowsMyDrivingWA",
+  "version": "0.0.6",
+  "description": "Tweet a license # at me! I'll look it up for you.",
+  "main": "./dist/src/server.js",
+  "types": "definitions/index.d.ts",
+  "typescript": {
+    "definition": "definitions/index"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "mutex": "^1.0.4",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^12.12.14",
+    "@types/uuid": "^3.4.6",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.3.3"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "echo 'building' && tsc && node dist/src/server.js"
+  },
+  "files": [
+    "definitions/**/*",
+    "dist/**/*"
+  ],
+  "repository": {
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "twitter",
+    "twitterbot",
+    "bot",
+    "howsmydriving",
+    "howsmydrivingwa"
+  ],
+  "license": "MIT"
+}
